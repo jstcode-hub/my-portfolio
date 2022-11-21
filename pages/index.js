@@ -9,7 +9,7 @@ import deved from '../public/dev-ed-wave.png';
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
-import web1 from '../public/web1.png';
+import web1 from '../public/web0.png';
 import web2 from '../public/web2.png';
 import web3 from '../public/web3.png';
 import web4 from '../public/web4.png';
@@ -41,12 +41,10 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10">
+          <div className="text-center p-10 ">
             <h2 className="text-5xl text-teal-600 font-medium md:text-6xl ">Moh. Angga Yunus</h2>
             <h3 className="text-2xl pt-4 md:text-3xl dark:text-white">Javascript Developer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white">
-              Freelance providing service for programming and design content needs. Join me and let`s get cracking!
-            </p>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white">Seorang manusia yang mencari nikmat duniawi agar bisa hidup bahagia</p>
           </div>
           <div>
             <ul className="text-5xl flex justify-center gap-4 md:gap-16 py-3 text-gray-600">
@@ -78,12 +76,11 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl pt-5 dark:text-white">Service I Offer</h3>
+            <h3 className="text-3xl pt-5 dark:text-white">Ringkasan singkat tentangku</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Since the beginning of may journey as a freelance javascript developer, I`ve done remote work for agencies consultad for startup and collaborated with talented people to create digital products
-              for both businnes and consumer user
+              Saya merupakan siswa lulusan SMK Krian 1 jurusan rekayasa lunak, menguasai beberapa teknologi pemograman antara lain: Javascript, PHP, CSS, dan Java
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">I offer a wide range of service, including brand design, programming and teaching</p>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">Sekarang masih mencari free job dan sedang mencari universitas</p>
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
@@ -123,7 +120,12 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
-              <Image src={web1} alt="" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout={'responsive'} />
+              <a href="https://axifiveth.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <Image src={web1} alt="" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout={'responsive'} />
+              </a>
+              <p className="my-3 p-3 shadow-lg rounded-xl dark:bg-white ">
+                Project pertama saya yang berhasil online. Project tersebut saya membuatnya dengan teknologi NEXTJS dan firebase dengan fitur lengkap CRUD dan login menggunakan Google
+              </p>
             </div>
             <div className="basis-1/3 flex-1">
               <Image src={web2} alt="" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout={'responsive'} />
