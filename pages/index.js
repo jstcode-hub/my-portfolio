@@ -102,7 +102,7 @@ export default function Home() {
               <p className="py-2">Menulis program yang elegant, rapih, dan mudah di baca serta teknologi yang up to date</p>
               <h4 className="py-4 text-teal-600 dark:text-white font-medium">Beberapa tools yang saya gunakan</h4>
               <div className="text-gray-800 dark:text-white">
-                <p className=" py-1">Visual Studio Code</p>
+                <p className="py-1">Visual Studio Code</p>
                 <p className="py-1">Android Studio</p>
                 <p className="py-1">Visual Studio</p>
               </div>
@@ -120,7 +120,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="portofolio">
+        <section id="portofolio" className="pt-20">
           <div className="text-center">
             <h3 className="text-3xl py-1 dark:text-white">Kumpulan Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">Kumpulan beberapa portofolio maupun tugas yang pernah saya buat</p>
