@@ -9,12 +9,8 @@ import deved from '../public/dev-ed-wave.png';
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
-import web1 from '../public/web0.png';
-import web2 from '../public/web2.png';
-import web3 from '../public/web3.png';
-import web4 from '../public/web4.png';
-import web5 from '../public/web5.png';
-import web6 from '../public/web6.png';
+import web0 from '../public/web0.png';
+import web1 from '../public/web1.png';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -131,30 +127,27 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap dark:text-white">
             <div className="basis-1/3 flex-1 rounded-2xl p-3 shadow-2xl dark:bg-gray-600">
               <a href="https://axifiveth.vercel.app/" target="_blank" rel="noopener noreferrer">
-                <Image src={web1} alt="" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout={'responsive'} />
+                <Image src={web0} alt="" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout={'responsive'} />
               </a>
               <p className="my-3 p-3">
-                Ini meupakan sebuah tugas saya untuk tugas akhir sekolah. Ini merupakan aplikasi chatting bersama untuk membantu kalian mencari teman baru. Teknologi yang saya gunakan meliputi Next.js dan
+                Ini merupakan sebuah tugas saya untuk tugas akhir sekolah. Ini merupakan aplikasi chatting bersama untuk membantu kalian mencari teman baru. Teknologi yang saya gunakan meliputi Next.js dan
                 Firebase dengan sistem auth google di dalamnya. Anda dapat mengunjungi halaman tersebut di link berikut ini :{' '}
-                <a href="https://axifiveth.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://axifiveth.vercel.app/" target="_blank" rel="noopener noreferrer" className="">
                   https://axifiveth.vercel.app
                 </a>
               </p>
             </div>
-            <div className="basis-1/3 flex-1">
-              <Image src={web2} alt="" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout={'responsive'} />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image src={web3} alt="" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout={'responsive'} />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image src={web4} alt="" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout={'responsive'} />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image src={web5} alt="" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout={'responsive'} />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image src={web6} alt="" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout={'responsive'} />
+            <div className="basis-1/3 flex-1 rounded-2xl p-3 shadow-2xl dark:bg-gray-600">
+              <a href="https://clone-netflix-jstcode-hub.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <Image src={web1} alt="" className="rounded-lg object-cover" width={'100%'} height={'100%'} layout={'responsive'} />
+              </a>
+              <p className="my-3 p-3">
+                Saya membuat web ini untuk melatih seberapa jauh keahlian saya, dan saya memilih netflix sebagai bahan untuk latihan. Meskipun banyak kekurangan saya akan terus melatih kemampuan saya. Anda
+                dapat mengunjungi halaman tersebut di link berikut ini :{' '}
+                <a href="https://clone-netflix-jstcode-hub.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  https://clone-netflix-jstcode-hub.vercel.app/
+                </a>
+              </p>
             </div>
           </div>
         </section>
